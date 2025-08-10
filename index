@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Grow Diary</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #f7f7f7;
+  }
+  h1 {
+    color: #2a7a2a;
+  }
+  .entry {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 0 8px #ccc;
+  }
+</style>
+</head>
+<body>
+
+  <h1>Grow Diary</h1>
+
+  <div class="entry">
+    <p>Welcome to my grow diary! I will post updates here.</p>
+  </div>
+
+</body>
+</html>
