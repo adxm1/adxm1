@@ -30,24 +30,29 @@
     margin: 0;
   }
   section.entry {
-    padding: 1.5rem 1rem;
-    margin-bottom: 2rem;
-    border-bottom: 1px solid #ddd;
+    padding: 1.75rem 1.25rem;
+    margin-bottom: 2.5rem;
+    border: 1.5px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    background: #fafafa;
+    transition: box-shadow 0.25s ease;
   }
-  section.entry:last-child {
-    border-bottom: none;
+  section.entry:hover {
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.12);
   }
   section.entry p {
     font-size: 1.125rem;
     line-height: 1.6;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
   }
   section.entry img {
     width: 100%;
     height: auto;
     display: block;
     margin-top: 1rem;
-    border-radius: 6px;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
   }
   @media (max-width: 600px) {
     body {
@@ -60,8 +65,9 @@
     header h1 {
       font-size: 1.5rem;
     }
-    section.entry p {
-      font-size: 1rem;
+    section.entry {
+      padding: 1.25rem 1rem;
+      margin-bottom: 2rem;
     }
   }
 </style>
